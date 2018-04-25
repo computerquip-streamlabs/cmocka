@@ -92,7 +92,7 @@ if (WITH_STATIC_LIB)
                 SOVERSION
                     ${LIBRARY_SOVERSION}
                 OUTPUT_NAME
-                    cmocka
+                    cmocka_static
     )
 
     install(
